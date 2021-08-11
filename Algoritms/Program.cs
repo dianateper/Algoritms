@@ -1,4 +1,5 @@
-﻿using Algoritms.SortingAlgorithms;
+﻿using Algorithms.SearchingAlgorithms;
+using Algorithms.SortingAlgorithms;
 using System;
 
 namespace Algoritms
@@ -14,9 +15,16 @@ namespace Algoritms
             Console.WriteLine(string.Join(" ", result));
         }
 
+        public static void Search(ISearch search)
+        {
+            var result = search.Search(array, 6);
+
+            Console.WriteLine(result);
+        }
+
         static void Main()
         {
-            Sort(new QuickSort());
+            Search(new TernarySearch());
         }
     }
 }

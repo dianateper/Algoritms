@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace Algoritms.SortingAlgorithms
+namespace Algorithms.SortingAlgorithms
 {
     /// <summary>
     /// Worst complexity: O(n*log(n)).

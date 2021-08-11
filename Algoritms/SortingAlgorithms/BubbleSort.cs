@@ -1,4 +1,4 @@
-﻿namespace Algoritms.SortingAlgorithms
+﻿namespace Algorithms.SortingAlgorithms
 {
     /// <summary>
     /// Worst complexity: O(n2).
